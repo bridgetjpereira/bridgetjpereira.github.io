@@ -203,9 +203,6 @@
     margin-left: 1.2em;
   }
 
-  .navmapsectionflex {
-    // padding-top: 8em;
-  }
   .navigationgridcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -214,7 +211,7 @@
     max-width: 90vw;
   }
   .worldmapcontainer {
-    max-height: 80vh;
+    max-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -223,16 +220,16 @@
   .navmapsection {
     background-color: #7b9eba;
     width: 90vw;
-    height: 85vh;
+    height: 80vh;
     box-shadow: 0 1px 3px 0px #5c5959;
     border-radius: 1em;
-    margin-top: 7em;
+    margin-top: 8em;
   }
 
   .navigationpin {
-    height: 4em;
-    width: 3em;
-    padding-bottom: 0.1em;
+    height: 3em;
+    width: 4em;
+    // padding-bottom: 0.1em;
   }
 
   .worldmapflex {
@@ -276,7 +273,7 @@
     align-items: center;
     z-index: 20;
     position: absolute;
-    top: 50%;
+    top: 38%;
     left: 8%;
   }
 
@@ -305,10 +302,10 @@
     text-align: center;
     width: 1vw;
     height: 1vh;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-top: 0.5em;
+    padding-bottom:  0.5em;
+    padding-left: 0.5em;
+    padding-right:  0.5em;
     font-family: "Merriweather", serif;
   }
   .navigationbuttongriditem6 {
@@ -322,10 +319,10 @@
     text-align: center;
     width: 1vw;
     height: 1vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 0.5em;
+    padding-bottom:  0.5em;
+    padding-left: 0.5em;
+    padding-right:  0.5em;
     font-family: "Merriweather", serif;
   }
 
@@ -340,10 +337,10 @@
     text-align: center;
     width: 1vw;
     height: 1vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 0.5em;
+    padding-bottom:  0.5em;
+    padding-left: 0.5em;
+    padding-right:  0.5em;
     font-family: "Merriweather", serif;
   }
 
@@ -371,10 +368,10 @@
     text-align: center;
     width: 1vw;
     height: 1vh;
-    padding-top: 2px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 0.5em;
+    padding-bottom:  0.5em;
+    padding-left: 0.5em;
+    padding-right:  0.5em;
     font-family: "Merriweather", serif;
   }
 }

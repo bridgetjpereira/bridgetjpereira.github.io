@@ -11,7 +11,7 @@
   height: 4em;
   width: 4em;
   text-decoration: none;
-  color: white;
+  color: grey;
   background: none;
   border: none;
   position: absolute;
@@ -36,4 +36,13 @@
 
 .modalContainer {
   background-color: none;
+}
+
+@media screen and (max-width: 425px) {
+  .modalImage {
+    position: relative;
+    width: 18em;
+    height: 18em;
+    border-radius: 0.5em;
+  }
 }

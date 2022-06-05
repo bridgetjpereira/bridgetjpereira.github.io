@@ -213,13 +213,13 @@
   .aboutsection {
     background-color: #7b9eba;
     width: 90vw;
-    height: 85vh;
+    height: 80vh;
     border-radius: 1em;
     background: url("../../skylineopacity50.svg") bottom no-repeat;
     background-size: width 50% 40vh;
     background-color: #7b9eba;
     display: flex;
-    margin-top: 7em;
+    margin-top: 8em;
   }
 }
 @media only screen and (min-width: 426px) and (max-width: 480px) {

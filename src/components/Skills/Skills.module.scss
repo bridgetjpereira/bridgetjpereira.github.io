@@ -45,8 +45,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 50vh;
-  margin-right:15em;
-
+  margin-right: 15em;
 }
 
 .skillsparagraphlistflex {
@@ -398,7 +397,7 @@
 @media screen and (max-width: 425px) {
   .skillslistbox {
     text-align: center;
-    width: 14em;
+    width: 15em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
     padding: 0.5em;
@@ -411,9 +410,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-  .skillstitlenotecardflex{
-    margin-right: 1em;
+    padding-top: 0em;
   }
 
   .skillstitlenotecardflex {
@@ -424,7 +421,6 @@
   }
   .skillslistinnerbox {
     background-color: white;
-    // padding: 0.3em;
     padding-right: 0em;
     padding-bottom: 0em;
   }
@@ -446,16 +442,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    // padding-top: 2em;
   }
 
   .skillslisttwo {
     margin-right: 0.2em;
-    // padding: 0.3em;
   }
   .skillslist {
     margin-left: 0.2em;
-    // padding: 0.3em;
   }
   .navigationpinflex {
     display: flex;
@@ -494,23 +487,22 @@
   }
 
   .skillssectionbox {
-    background: url("../../croppedfinaljunglewhole gradient.svg") bottom
-      no-repeat;
-    // background: url("../../finaljunglefooterwithplane.svg") bottom no-repeat;
+    background: url("../../croppedfinaljunglewhole gradient.svg") bottom no-repeat;
     background-size: width 100%;
     background-size: height 80%;
     background-color: #7b9eba;
     width: 90vw;
-    height: 85vh;
+    height: 80vh;
     box-shadow: 0 1px 3px 0px #5c5959;
     border-radius: 1em;
+    margin-top: 8em;
   }
 
   .JavaScript {
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     text-align: center;
     font-size: 1em;
   }
@@ -572,7 +564,7 @@
     text-align: center;
     color: white;
     border-radius: 0.5em;
-    width: 5.5em;
+    width: 6em;
     text-align: center;
     margin-left: 0.5em;
     background-color: #7b9eba;
