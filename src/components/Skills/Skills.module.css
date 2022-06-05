@@ -911,10 +911,10 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .skillslistbox {
     text-align: center;
-    width: 15em;
+    width: 20em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -950,9 +950,8 @@
   }
 
   .flyingplane {
-    width: 13em;
+    width: 16em;
     height: 8em;
-    padding-bottom: 2em;
   }
 
   .skillssectionboxflex {
@@ -962,11 +961,11 @@
   }
 
   .skillslisttwo {
-    margin-right: 0.2em;
+    margin-right: 0em;
   }
 
   .skillslist {
-    margin-left: 0.2em;
+    margin-left: 1em;
   }
 
   .navigationpinflex {
@@ -977,15 +976,15 @@
   }
 
   .navigationpin {
-    height: 2.5em;
-    width: 2.5em;
+    height: 3em;
+    width: 3em;
   }
 
   .pinflex {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 15em;
+    width: 20em;
   }
 
   .skillsparagraph {
@@ -1158,8 +1157,13 @@
   .skillsboxflex {
     width: 80%;
     padding-right: 5em;
-    padding-left: 7em;
+    padding-left: 15em;
     padding-bottom: 1em;
+  }
+
+  .imageflex {
+    height: 30em;
+    padding-top: 5em;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

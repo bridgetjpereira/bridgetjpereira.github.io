@@ -41,13 +41,13 @@
   .content {
     display: grid;
     grid-template-columns: repeat(auto-fill, 10em);
-    grid-column-gap: 0.7em;
-    grid-row-gap: 0.7em;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0.5em;
-    margin-left: 0em;
-    margin-right: 0em;
+    margin-left: 4em;
+    margin-right: 4em;
     margin-top: 3em;
   }
 }
