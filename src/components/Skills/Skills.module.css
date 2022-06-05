@@ -42,7 +42,7 @@
 .skillsboxflex {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .skillstitlenotecardflex {
@@ -50,6 +50,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 50vh;
+  margin-right: 15em;
 }
 
 .skillsparagraphlistflex {
@@ -259,6 +260,7 @@
   height: 80vh;
   box-shadow: 0 1px 3px 0px #5c5959;
   border-radius: 1em;
+  margin-top: 3em;
 }
 
 .navigationpin {

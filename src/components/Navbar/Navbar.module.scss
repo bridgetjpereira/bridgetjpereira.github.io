@@ -7,7 +7,6 @@
   box-shadow: 0 2px 6px -5px #000000;
   background-color: white;
   // animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  // padding-top: 2em;
   z-index: 999;
   align-items: center;
 }
@@ -22,6 +21,7 @@
   justify-content: space-between;
   position: relative;
   margin-top: 1em;
+  padding-top: 1em;
 }
 
 .bridget a {
@@ -297,5 +297,4 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
 }

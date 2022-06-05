@@ -37,7 +37,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 20;
   position: absolute;
   bottom: 35%;
   left: 28%;
@@ -51,7 +50,6 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  z-index: 20;
   position: absolute;
   top: 10%;
   left: 20%;
@@ -65,7 +63,6 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  z-index: 20;
   position: absolute;
   top: 55%;
   right: 18%;
@@ -82,10 +79,10 @@
   text-align: center;
   width: 1vw;
   height: 1vh;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   font-family: "Merriweather", serif;
 }
 
@@ -107,10 +104,10 @@
   text-align: center;
   width: 1vw;
   height: 1vh;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   font-family: "Merriweather", serif;
 }
 
@@ -132,10 +129,10 @@
   text-align: center;
   width: 1vw;
   height: 1vh;
-  padding-top: 2px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   font-family: "Merriweather", serif;
 }
 
@@ -157,10 +154,10 @@
   text-align: center;
   width: 1vw;
   height: 1vh;
-  padding-top: 2px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   font-family: "Merriweather", serif;
 }
 
@@ -176,9 +173,9 @@
 }
 
 .navigationpin {
-  height: 6em;
+  height: 5em;
   width: 5em;
-  padding-bottom: 0.1em;
+  margin-bottom: 0.8em;
 }
 
 .navmapsection {

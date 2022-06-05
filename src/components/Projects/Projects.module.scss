@@ -19,9 +19,11 @@
 .projectstitle {
   color: #f6d7ba;
   font-size: 4em;
-  margin-left: 1em;
+  margin-left: 2em;
   margin-top: 1em;
   font-family: "Merriweather", serif;
+  width: 10em;
+  margin-left: 2em;
 }
 
 .projecttitleflex {
@@ -30,7 +32,7 @@
   width: 80vw;
   height: 80vh;
   box-shadow: 0 1px 3px 0px #5c5959;
-  margin-top: 5.5em;
+  margin-top: 10.5em;
   position: relative;
 }
 .navigationpin {
@@ -38,11 +40,6 @@
   width: 5em;
 }
 
-// .projectsgridflex{
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-// }
 @media screen and (max-width: 425px) {
   .projecttitleflex {
     margin-top: 7em;

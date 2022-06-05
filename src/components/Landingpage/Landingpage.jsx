@@ -10,14 +10,12 @@ const Landingpage = () => {
       <div className={styles.mainpage}>
         <a name="landing"></a>
 
-        <div className={styles.titlepagetop}>
-          <img className={styles.flyingplane} src={flyingplane} />
-        </div>
+       
         <main className={styles.mainflex}>
           <div className={styles.gridlandingpage}>
             <div className={styles.titleflex}>
               <div className={styles.landingtitle}>Bridget Pereira</div>
-              <div className={styles.abouttext}>Junior Web Developer</div>
+              <div className={styles.abouttext}>Web Developer</div>
             </div>
             <h1 className={styles.comeonin}>
               <a href="#map">
@@ -43,7 +41,9 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-
+          <div className={styles.titlepagetop}>
+          <img className={styles.flyingplane} src={flyingplane} />
+        </div>
           <div className={styles.landingfooterflex}>
             <img className={styles.planepile} src={paperaeroplanepile} />
           </div>
