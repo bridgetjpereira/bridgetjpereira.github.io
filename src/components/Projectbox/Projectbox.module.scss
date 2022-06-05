@@ -1,9 +1,7 @@
 .projectTitle {
   color: white;
-  // background-color: #9fcba0;
   width: 15em;
   height: 15em;
-  // padding-right: 10em;
   border-radius: 10px;
   padding: 1.5em;
   justify-content: center;
@@ -16,15 +14,11 @@ h2 {
   border: solid 2px;
   text-align: center;
   padding: 0.5em;
-  // padding-bottom: 1em;
 }
 
 h2:hover {
   color: orange;
-  // color: rgb(16, 35, 112);
-  // color:rgb(55, 53, 53);
-  // color: rgb(32, 239, 239);
-  // color:#f6b6de;
+
 }
 
 .h2flex {
@@ -38,16 +32,7 @@ h3 {
   font-size: 0.9em;
   text-align: center;
   padding-top: 2em;
-  // padding-bottom: 5em;
 }
-
-// .openModal {
-//   flex: 1;
-//   position: "absolute";
-//   left: 0;
-//   top: 0;
-//   // width: width;
-// }
 
 button {
   display: inline-block;
@@ -76,21 +61,18 @@ button {
   border: solid 2px white;
   background-color: white;
   margin-right: 1em;
-  // width: fit-content;
 }
 
 .projectLinkCode {
   font-size: 0.4em;
   border: solid 2px white;
   background-color: white;
-  // width: fit-content;
 }
 
 @media only screen and (max-width: 425px) {
   .projectTitle {
     width: 8em;
     height: 8em;
-    // padding-right: 10em;
     border-radius: 10px;
     padding: 0.9em;
     justify-content: center;
@@ -103,7 +85,6 @@ button {
     border: solid 2px;
     text-align: center;
     padding: 0.2em;
-    // padding-bottom: 1em;
   }
   h3 {
     display: none;
@@ -113,14 +94,12 @@ button {
     border: solid 2px white;
     background-color: white;
     margin-right: 1em;
-    // width: fit-content;
   }
 
   .projectLinkCode {
     font-size: 0.6em;
     border: solid 2px white;
     background-color: white;
-    // width: fit-content;
   }
   .projectLinks {
     color: white;
@@ -181,8 +160,8 @@ button {
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .projectTitle {
-    width: 11em;
-    height: 11em;
+    width: 9.5em;
+    height: 9.5em;
     border-radius: 10px;
     padding: 0.9em;
     justify-content: center;

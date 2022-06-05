@@ -49,15 +49,15 @@
   .Projectlabel {
     color: white;
     background-color: white;
-    width: 11em;
-    height: 11em;
+    width: 9.5em;
+    height: 9.5em;
     border-radius: 10px;
     box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
   }
 
   .imagepath {
-    width: 11em;
-    height: 11em;
+    width: 9.5em;
+    height: 9.5em;
     border-radius: 10px;
   }
 }

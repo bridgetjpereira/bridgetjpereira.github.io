@@ -534,16 +534,35 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .worldmap {
     background: url("../../cropped map Britain.svg") bottom;
-    background-size: 65vw 77vh;
+    background-size: 78vw 66vh;
     background-repeat: no-repeat;
-    margin-left: 0.7em;
+    margin-left: 1.2em;
   }
-  .worldmapflex {
-    width: 80vw;
+  .navigationgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-height: 90vh;
+    max-width: 90vw;
+  }
+  .worldmapcontainer {
+    max-height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 90vw;
+  }
+  .navmapsection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 80vh;
+    box-shadow: 0 1px 3px 0px #5c5959;
+    border-radius: 1em;
+    margin-top: 8em;
   }
 
   .navigationpin {
-    height: 3em;
+    height: 4em;
     width: 3em;
     padding-bottom: 0.1em;
     // z-index: 600;
@@ -557,8 +576,42 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 66%;
-    left: 60%;
+    top: 70%;
+    left: 62.5%;
+  }
+  .navigationbuttongriditem5 {
+    border-color: #7b9eba;
+    font-size: 1em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
+  }
+  .navigationbuttongriditem6 {
+    border-color: #7b9eba;
+    font-size: 1em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
   }
 
   .navigationflexcontainer2 {
@@ -571,7 +624,7 @@
     align-items: center;
     z-index: 20;
     position: absolute;
-    top: 86%;
+    top: 91%;
     left: 26%;
   }
 
@@ -585,8 +638,8 @@
     align-items: center;
     z-index: 20;
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 38%;
+    left: 8%;
   }
 
   .navigationflexcontainer4 {
@@ -601,40 +654,6 @@
     position: absolute;
     top: 38%;
     right: 30%;
-  }
-  .navigationbuttongriditem5 {
-    border-color: #7b9eba;
-    font-size: 1em;
-    font-style: "Inter", sans-serif;
-    border: 0.1em solid #7b9eba;
-    border-radius: 0.5em;
-    background-color: #fafafa;
-    color: #7b9eba;
-    text-align: center;
-    width: 1vw;
-    height: 1vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: "Merriweather", serif;
-  }
-  .navigationbuttongriditem6 {
-    border-color: #7b9eba;
-    font-size: 1em;
-    font-style: "Inter", sans-serif;
-    border: 0.1em solid #7b9eba;
-    border-radius: 0.5em;
-    background-color: #fafafa;
-    color: #7b9eba;
-    text-align: center;
-    width: 1vw;
-    height: 1vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: "Merriweather", serif;
   }
   .navigationbuttongriditem8 {
     border-color: #7b9eba;
@@ -660,10 +679,10 @@
     text-align: center;
     width: 1vw;
     height: 1vh;
-    padding-top: 2px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     font-family: "Merriweather", serif;
   }
 }

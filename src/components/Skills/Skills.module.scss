@@ -900,16 +900,28 @@
     width: 15em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
-    padding: 0.7em;
+    padding: 0.5em;
     background-color: white;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
+  .skillssectionboxflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0em;
+  }
 
+  .skillstitlenotecardflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 50vh;
+    margin-right: 5em;
+  }
   .skillslistinnerbox {
     background-color: white;
-    padding: 0em;
     padding-right: 0em;
     padding-bottom: 0em;
   }
@@ -920,16 +932,17 @@
     margin-top: 1em;
     font-family: "Merriweather", serif;
   }
+
   .flyingplane {
     width: 10em;
     height: 5em;
+    margin-top: 6em;
   }
 
   .skillssectionboxflex {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 2em;
   }
 
   .skillslisttwo {
@@ -981,16 +994,17 @@
     background-size: height 80%;
     background-color: #7b9eba;
     width: 90vw;
-    height: 90vh;
+    height: 80vh;
     box-shadow: 0 1px 3px 0px #5c5959;
     border-radius: 1em;
+    margin-top: 8em;
   }
 
   .JavaScript {
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     text-align: center;
     font-size: 1em;
   }
@@ -999,7 +1013,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     text-align: center;
   }
 
@@ -1007,7 +1021,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -1016,7 +1030,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -1025,7 +1039,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -1034,7 +1048,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -1043,7 +1057,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -1052,18 +1066,19 @@
     text-align: center;
     color: white;
     border-radius: 0.5em;
-    width: 5.5em;
+    width: 6em;
     text-align: center;
     margin-left: 0.5em;
     background-color: #7b9eba;
     border-radius: 0.5em;
+    margin-right: 2em;
   }
 
   .agile {
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -1073,7 +1088,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -1083,7 +1098,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -1093,7 +1108,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -1103,7 +1118,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -1113,19 +1128,19 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
+    margin-bottom: 1em;
   }
 
   .skillsboxflex {
-    width: 80vw;
-    margin-top: 2em;
-    margin-right: 2em;
-  }
-  .skillslistbox {
-    margin-right: 2em;
+    width: 80%;
+    // margin-top: 5em;
+    padding-right: 5em;
+    padding-left: 7em;
+    padding-bottom: 1em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
