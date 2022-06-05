@@ -444,6 +444,19 @@
     margin-bottom: 4em;
   }
 
+  .landingfooterflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .planepile {
+    height: 18em;
+    width: 18em;
+    padding-bottom: 0em;
+  }
+
   .comeonin {
     display: flex;
     flex-direction: row;
@@ -474,8 +487,8 @@
   }
 
   .abouttext {
-    padding: 0;
-    font-size: 1em;
+    padding-top: 0.5;
+    font-size: 1.3em;
     text-align: center;
   }
 
@@ -486,25 +499,6 @@
     width: 100%;
     padding-top: 0em;
     margin-bottom: 0em;
-  }
-
-  .planepile {
-    height: 5em;
-    width: 5em;
-    padding-bottom: 0em;
-    width: 50%;
-  }
-
-  .flyingplane {
-    height: 14em;
-    width: 14em;
-    margin-left: 0em;
-    margin-top: 0em;
-  }
-
-  .titlepagetop {
-    padding-right: 10em;
-    padding-bottom: 8em;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

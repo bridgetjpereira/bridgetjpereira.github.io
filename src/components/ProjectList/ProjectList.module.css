@@ -26,7 +26,7 @@
 @media only screen and (min-width: 426px) and (max-width: 480px) {
   .content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 10em);
+    grid-template-columns: repeat(auto-fill, 9em);
     grid-column-gap: 0.6em;
     grid-row-gap: 0.6em;
     justify-content: center;
@@ -39,7 +39,7 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 11em);
+    grid-template-columns: repeat(auto-fill, 9em);
     grid-column-gap: 0.8em;
     grid-row-gap: 0.8em;
     justify-content: center;

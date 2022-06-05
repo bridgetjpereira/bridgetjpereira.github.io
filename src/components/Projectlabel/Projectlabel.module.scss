@@ -33,45 +33,14 @@
   .Projectlabel {
     color: white;
     background-color: white;
-    width: 10em;
-    height: 10em;
+    width: 9em;
+    height: 9em;
     border-radius: 10px;
     box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
   }
   .imagepath {
-    width: 10em;
-    height: 10em;
-    border-radius: 10px;
-  }
-}
-// @media screen and (max-width: 768px) {
-//   .Projectlabel {
-//     color: white;8
-//     background-color: white;
-//     width: 10em;
-//     height: 10em;
-//     border-radius: 10px;
-//     box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
-//   }
-
-//   .imagepath {
-//     width: 10em;
-//     height: 10em;
-//     border-radius: 10px;
-//   }
-// }
-@media only screen and (min-width: 426px) and (max-width: 480px) {
-  .Projectlabel {
-    color: white;
-    background-color: white;
-    width: 10em;
-    height: 10em;
-    border-radius: 10px;
-    box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
-  }
-  .imagepath {
-    width: 10em;
-    height: 10em;
+    width: 9em;
+    height: 9em;
     border-radius: 10px;
   }
 }
@@ -92,5 +61,4 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
 }
