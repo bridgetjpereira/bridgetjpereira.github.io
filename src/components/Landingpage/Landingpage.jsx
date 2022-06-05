@@ -17,7 +17,7 @@ const Landingpage = () => {
           <div className={styles.gridlandingpage}>
             <div className={styles.titleflex}>
               <div className={styles.landingtitle}>Bridget Pereira</div>
-              <div className={styles.abouttext}>Web Developer</div>
+              <div className={styles.abouttext}>Junior Web Developer</div>
             </div>
             <h1 className={styles.comeonin}>
               <a href="#map">
