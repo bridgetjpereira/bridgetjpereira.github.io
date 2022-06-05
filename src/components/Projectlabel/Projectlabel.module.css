@@ -1,0 +1,79 @@
+.Projectlabel {
+  color: white;
+  background-color: white;
+  width: 15em;
+  height: 15em;
+  border-radius: 10px;
+  box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+}
+
+.imagepath {
+  width: 15em;
+  height: 15em;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .Projectlabel {
+    color: white;
+    background-color: white;
+    width: 8em;
+    height: 8em;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+  }
+
+  .imagepath {
+    width: 8em;
+    height: 8em;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 480px) {
+  .Projectlabel {
+    color: white;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+  }
+
+  .imagepath {
+    width: 10em;
+    height: 10em;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 480px) {
+  .Projectlabel {
+    color: white;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+  }
+
+  .imagepath {
+    width: 10em;
+    height: 10em;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .Projectlabel {
+    color: white;
+    background-color: white;
+    width: 11em;
+    height: 11em;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+  }
+
+  .imagepath {
+    width: 11em;
+    height: 11em;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,234 @@
+.sayhellosectionflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sayhellosection {
+  background-color: #7b9eba;
+  width: 80vw;
+  height: 80vh;
+  box-shadow: 0 1px 3px 0px #5c5959;
+  border-radius: 1em;
+  margin-top: 10.5em;
+}
+
+.sayhellopage {
+  background-color: white;
+  width: 100vw;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  height: 100vh;
+}
+
+.iconsFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttoncontactme a {
+  font-size: 1em;
+  font-weight: 250;
+  text-align: center;
+  color: white;
+}
+
+.buttoncontactme a:hover {
+  color: #f6d7ba;
+}
+
+.email {
+  font-size: 1.5em;
+  font-weight: 250;
+  text-align: center;
+}
+
+.sayhellofooterflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sayhellofooter {
+  background-image: url("../../Finalsayhelloimage 3.svg");
+  width: 88.8%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sayhellotitle {
+  color: #f6d7ba;
+  font-size: 4em;
+  margin-left: 2em;
+  margin-top: 1em;
+  font-family: "Merriweather", serif;
+}
+
+.backtotopflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sayhelloparagraph {
+  color: #f6d7ba;
+  margin-left: 5.2em;
+  padding-top: 1.5em;
+  font-size: 1.5em;
+}
+
+.contactslinktop {
+  color: white;
+  font-size: 1em;
+  justify-items: center;
+}
+
+.contactslinktop:hover {
+  color: #f6d7ba;
+}
+
+.github a {
+  color: white;
+  font-size: 40px;
+}
+
+.github a:hover {
+  color: #f6d7ba;
+}
+
+.linkedin a {
+  color: white;
+  font-size: 40px;
+}
+
+.linkedin a:hover {
+  color: #f6d7ba;
+}
+
+.email {
+  color: white;
+  font-size: 1.5em;
+}
+
+.github {
+  font-size: 2em;
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+.linkedin {
+  font-size: 2em;
+  color: white;
+  padding-top: 1em;
+}
+
+.email {
+  font-size: 1em;
+}
+
+.contactslinktopflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+  .sayhellotitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+
+  .sayhellofooter {
+    background-image: url("../../Finalbirdswire_compressed.svg");
+    width: 90vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90vw 70vh;
+  }
+
+  .sayhellosection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 90vh;
+    box-shadow: 0 1px 3px 0px #5c5959;
+    border-radius: 1em;
+    margin-top: 7em;
+  }
+
+  .sayhelloparagraph {
+    font-size: 1em;
+    margin-left: 3em;
+    padding-top: 0.5em;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 480px) {
+  .sayhellotitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+
+  .sayhellofooter {
+    background-image: url("../../Finalbirdswire_compressed.svg");
+    width: 90vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90vw 70vh;
+  }
+
+  .sayhellosection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 90vh;
+    box-shadow: 0 1px 3px 0px #5c5959;
+    border-radius: 1em;
+    margin-top: 2em;
+  }
+
+  .sayhelloparagraph {
+    font-size: 1em;
+    margin-left: 3em;
+    padding-top: 0.5em;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .sayhellotitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+
+  .sayhellofooter {
+    background-image: url("../../Finalbirdswire_compressed.svg");
+    width: 90vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90vw 70vh;
+  }
+
+  .sayhellosection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 90vh;
+    box-shadow: 0 1px 3px 0px #5c5959;
+    border-radius: 1em;
+    margin-top: 2em;
+  }
+
+  .sayhelloparagraph {
+    font-size: 1em;
+    margin-left: 3em;
+    padding-top: 0.5em;
+  }
+}

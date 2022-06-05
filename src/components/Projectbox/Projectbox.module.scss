@@ -1,0 +1,341 @@
+.projectTitle {
+  color: white;
+  // background-color: #9fcba0;
+  width: 15em;
+  height: 15em;
+  // padding-right: 10em;
+  border-radius: 10px;
+  padding: 1.5em;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  border: solid 2px;
+  text-align: center;
+  padding: 0.5em;
+  // padding-bottom: 1em;
+}
+
+h2:hover {
+  color: orange;
+  // color: rgb(16, 35, 112);
+  // color:rgb(55, 53, 53);
+  // color: rgb(32, 239, 239);
+  // color:#f6b6de;
+}
+
+.h2flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h3 {
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  padding-top: 2em;
+  // padding-bottom: 5em;
+}
+
+// .openModal {
+//   flex: 1;
+//   position: "absolute";
+//   left: 0;
+//   top: 0;
+//   // width: width;
+// }
+
+button {
+  display: inline-block;
+  border: none;
+  background-color: none;
+  color: white;
+}
+
+.linkFlexProjectCode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projectLinks {
+  color: white;
+  font-size: 2em;
+  background-color: none;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.projectLinkProject {
+  font-size: 0.4em;
+  border: solid 2px white;
+  background-color: white;
+  margin-right: 1em;
+  // width: fit-content;
+}
+
+.projectLinkCode {
+  font-size: 0.4em;
+  border: solid 2px white;
+  background-color: white;
+  // width: fit-content;
+}
+
+@media only screen and (max-width: 425px) {
+  .projectTitle {
+    width: 8em;
+    height: 8em;
+    // padding-right: 10em;
+    border-radius: 10px;
+    padding: 0.9em;
+    justify-content: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    border: solid 2px;
+    text-align: center;
+    padding: 0.2em;
+    // padding-bottom: 1em;
+  }
+  h3 {
+    display: none;
+  }
+  .projectLinkProject {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    margin-right: 1em;
+    // width: fit-content;
+  }
+
+  .projectLinkCode {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    // width: fit-content;
+  }
+  .projectLinks {
+    color: white;
+    font-size: 1em;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 480px) {
+  .projectTitle {
+    width: 10em;
+    height: 10em;
+    // padding-right: 10em;
+    border-radius: 10px;
+    padding: 0.9em;
+    justify-content: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    border: solid 2px;
+    text-align: center;
+    padding: 0.5em;
+    // padding-bottom: 1em;
+  }
+  h3 {
+    display: none;
+  }
+  .projectLinkProject {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    margin-right: 1em;
+    // width: fit-content;
+  }
+
+  .projectLinkCode {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    // width: fit-content;
+  }
+  .projectLinks {
+    color: white;
+    font-size: 1em;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .projectTitle {
+    width: 11em;
+    height: 11em;
+    // padding-right: 10em;
+    border-radius: 10px;
+    padding: 0.9em;
+    justify-content: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    border: solid 2px;
+    text-align: center;
+    padding: 0.5em;
+    // padding-bottom: 1em;
+  }
+  h3 {
+    display: none;
+  }
+  .projectLinkProject {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    margin-right: 1em;
+    // width: fit-content;
+  }
+
+  .projectLinkCode {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    // width: fit-content;
+  }
+  .projectLinks {
+    color: white;
+    font-size: 1em;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+  }
+}
+// .linkFlexProject {
+//   padding-right: 5em;
+// }
+// h4 {
+//   font-size: 1em;
+//   color: #f7d544;
+//   border: solid 2px white;
+//   background-color: white;
+// }
+// .yellow {
+//   color: white;
+//   background-color: #9fcba0;
+//   width: 30em;
+//   height: 30em;
+//   // padding-right: 10em;
+//   border-radius: 10px;
+//   padding: 5em;
+
+//   h2 {
+//     color: white;
+//     font-size: 2em;
+//     text-align: center;
+//     border: solid white 2px;
+//     padding-bottom: 1em;
+//   }
+
+//   h3 {
+//     color: white;
+//     font-size: 1em;
+//     text-align: center;
+//     padding-top: 2em;
+//   }
+// }
+
+// .red {
+//   background-color: Coral;
+// }
+
+// .blue {
+//   background-color: RoyalBlue;
+// }
+
+// .green {
+//   background-color: PaleGreen;
+// }
+
+// .white {
+//   background-color: WhiteSmoke;
+// }
+// .test {
+//   position: relative;
+//   z-index: 0;
+// }
+
+// .test:hover {
+// //   cursor: url({image_window_url});
+
+// }
+
+// .targetingbox {
+//   // width: 10vh;
+//   // height: 10vw;
+//   // background-color: blueviolet;
+//   // left: -5;
+//   // top: -5;
+//   // z-index: -5;
+//   position: fixed; /* Sit on top of the page content */
+//   // display: none; /* Hidden by default */
+//   width: 5%; /* Full width (cover the whole page) */
+//   height: 5%; /* Full height (cover the whole page) */
+//   top: 0;
+//   left: 0;
+//   right: 2;
+//   bottom: 2;
+//   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+//   // cursor: pointer; /* Add a pointer on hover */
+//   padding-bottom: 10em;
+// }
+
+// .targetFlex {
+//   padding: 10em;
+// }
+
+// #modalBackground,
+// .modalBackground {
+//   width: 150em;
+//   height: 150em;
+//   position: fixed;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   display: block;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   cursor: pointer;
+// }
+
+// .text {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   font-size: 50px;
+//   color: white;
+//   transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+// }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}

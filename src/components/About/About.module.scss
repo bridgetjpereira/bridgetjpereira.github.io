@@ -1,0 +1,337 @@
+.aboutsectionflex {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.aboutsection {
+  background-color: #7b9eba;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 1em;
+  flex-direction: row;
+  justify-content: center;
+  background: url("../../skylineopacity50.svg") bottom no-repeat;
+  background-size: width 100% 40vh;
+  background-color: #7b9eba;
+  display: flex;
+  margin-top: 10.5em;
+}
+
+.imageflex {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.newBirds {
+  width: 30em;
+  height: 12em;
+  margin-left: 12em;
+}
+
+.abouttitle {
+  color: #f6d7ba;
+  font-size: 4em;
+  margin-left: 3em;
+  margin-top: 1em;
+  font-family: "Merriweather", serif;
+  width: 10em;
+}
+.abouttitleflex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 90vw;
+}
+
+.aboutparagraph {
+  color: #9fcba0;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  width: 30em;
+  border-radius: 0.5em;
+  border: solid 2px;
+  border-radius: 0.5em;
+  padding: 2em;
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  margin-right: 5em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.aboutparagraphinnerbox {
+  background-color: white;
+  padding: 2em;
+}
+
+.aboutparagraph:hover {
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  float: left;
+}
+.swing img {
+  border: 5px solid #f8f8f8;
+  display: block;
+}
+.swing:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  top: -10px;
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+
+.swing:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: -14px;
+  left: 54%;
+  z-index: 5;
+  border-radius: 50% 50%;
+  background: #000;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+.aboutpage {
+  background-color: white;
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.aboutsectionflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigationpin {
+  height: 5em;
+  width: 5em;
+}
+
+.pinflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30em;
+  margin-right: 5em;
+}
+.pinnoteboxflex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 5em;
+  margin-top: 0em;
+  width: 50vw;
+  margin-left: 4em;
+}
+
+@media only screen and (max-width: 425px) {
+  .aboutparagraph {
+    text-align: center;
+    width: 19em;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    border: solid 2px;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  .aboutsectionflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // padding-top: 8em;
+  }
+
+  .aboutparagraphinnerbox {
+    background-color: white;
+    padding: 0.8em;
+    font-size: 1em;
+  }
+  .pinnoteboxflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 6em;
+    margin-top: 6em;
+    padding-right: 15em;
+    padding-bottom: 12em;
+    width: 100%;
+  }
+  .navigationpin {
+    height: 2.5em;
+    width: 2.5em;
+  }
+  .newBirds {
+    width: 14em;
+    height: 8em;
+    margin-left: 1em;
+  }
+
+  .pinflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12em;
+  }
+  .abouttitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+  .aboutsection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 85vh;
+    border-radius: 1em;
+    background: url("../../skylineopacity50.svg") bottom no-repeat;
+    background-size: width 50% 40vh;
+    background-color: #7b9eba;
+    display: flex;
+    margin-top: 7em;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 480px) {
+  .aboutparagraph {
+    text-align: center;
+    width: 17em;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    border: solid 2px;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  .aboutparagraphinnerbox {
+    background-color: white;
+    padding: 0.8em;
+    font-size: 1em;
+  }
+  .pinnoteboxflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 4em;
+    margin-top: 12em;
+    width: 40vw;
+    margin-right: 5em;
+  }
+  .navigationpin {
+    height: 2.5em;
+    width: 2.5em;
+  }
+  .newBirds {
+    width: 15em;
+    height: 8em;
+  }
+
+  .pinflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12em;
+  }
+  .abouttitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+  .aboutsection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 1em;
+    background: url("../../skylineopacity50.svg") bottom no-repeat;
+    background-size: width 50% 40vh;
+    background-color: #7b9eba;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .aboutparagraph {
+    text-align: center;
+    width: 17em;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    border: solid 2px;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  .aboutparagraphinnerbox {
+    background-color: white;
+    padding: 0.8em;
+    font-size: 1em;
+  }
+  .pinnoteboxflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 4em;
+    margin-top: 12em;
+    width: 40vw;
+    margin-right: 5em;
+  }
+  .navigationpin {
+    height: 2.5em;
+    width: 2.5em;
+  }
+  .newBirds {
+    width: 15em;
+    height: 8em;
+  }
+
+  .pinflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12em;
+  }
+  .abouttitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+  .aboutsection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 1em;
+    background: url("../../skylineopacity50.svg") bottom no-repeat;
+    background-size: width 50% 40vh;
+    background-color: #7b9eba;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}

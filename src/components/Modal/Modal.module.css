@@ -1,0 +1,39 @@
+#modalBackground,
+.modalBackground {
+  width: 30em;
+  height: 30em;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.closeButton {
+  height: 4em;
+  width: 4em;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  z-index: 50;
+}
+
+.modalImage {
+  position: relative;
+  width: 35em;
+  height: 35em;
+  border-radius: 0.5em;
+}
+
+.modal {
+  position: absolute;
+  width: 60em;
+  top: 20%;
+  left: 22%;
+}
+
+.modalContainer {
+  background-color: none;
+}

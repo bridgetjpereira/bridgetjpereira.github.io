@@ -1,0 +1,208 @@
+.projectTitle {
+  color: white;
+  width: 15em;
+  height: 15em;
+  border-radius: 10px;
+  padding: 1.5em;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  border: solid 2px;
+  text-align: center;
+  padding: 0.5em;
+}
+
+h2:hover {
+  color: orange;
+}
+
+.h2flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h3 {
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  background-color: none;
+  color: white;
+}
+
+.linkFlexProjectCode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projectLinks {
+  color: white;
+  font-size: 2em;
+  background-color: none;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.projectLinkProject {
+  font-size: 0.4em;
+  border: solid 2px white;
+  background-color: white;
+  margin-right: 1em;
+}
+
+.projectLinkCode {
+  font-size: 0.4em;
+  border: solid 2px white;
+  background-color: white;
+}
+
+@media only screen and (max-width: 425px) {
+  .projectTitle {
+    width: 8em;
+    height: 8em;
+    border-radius: 10px;
+    padding: 0.9em;
+    justify-content: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    border: solid 2px;
+    text-align: center;
+    padding: 0.2em;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  .projectLinkProject {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    margin-right: 1em;
+  }
+
+  .projectLinkCode {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+  }
+
+  .projectLinks {
+    color: white;
+    font-size: 1em;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 480px) {
+  .projectTitle {
+    width: 10em;
+    height: 10em;
+    border-radius: 10px;
+    padding: 0.9em;
+    justify-content: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    border: solid 2px;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  .projectLinkProject {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    margin-right: 1em;
+  }
+
+  .projectLinkCode {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+  }
+
+  .projectLinks {
+    color: white;
+    font-size: 1em;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .projectTitle {
+    width: 11em;
+    height: 11em;
+    border-radius: 10px;
+    padding: 0.9em;
+    justify-content: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    border: solid 2px;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  .projectLinkProject {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+    margin-right: 1em;
+  }
+
+  .projectLinkCode {
+    font-size: 0.6em;
+    border: solid 2px white;
+    background-color: white;
+  }
+
+  .projectLinks {
+    color: white;
+    font-size: 1em;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+  }
+}
