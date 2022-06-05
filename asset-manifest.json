@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bac66b6a.css",
-    "main.js": "/static/js/main.23db0390.js",
+    "main.css": "/static/css/main.871e1f6d.css",
+    "main.js": "/static/js/main.b56e070b.js",
     "static/js/787.fe039db8.chunk.js": "/static/js/787.fe039db8.chunk.js",
     "static/media/coralmodalboxnowaste.png": "/static/media/coralmodalboxnowaste.e11a760e6519b98ce8b9.png",
     "static/media/squarecrop.jpg": "/static/media/squarecrop.7212411d3cfdb79b5c63.jpg",
@@ -67,12 +67,12 @@
     "static/media/navigationpin1_svg.svg": "/static/media/navigationpin1_svg.71efcf769c41227ebd6b509b249d8858.svg",
     "static/media/pin1_svg.svg": "/static/media/pin1_svg.71efcf769c41227ebd6b509b249d8858.svg",
     "index.html": "/index.html",
-    "main.bac66b6a.css.map": "/static/css/main.bac66b6a.css.map",
-    "main.23db0390.js.map": "/static/js/main.23db0390.js.map",
+    "main.871e1f6d.css.map": "/static/css/main.871e1f6d.css.map",
+    "main.b56e070b.js.map": "/static/js/main.b56e070b.js.map",
     "787.fe039db8.chunk.js.map": "/static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bac66b6a.css",
-    "static/js/main.23db0390.js"
+    "static/css/main.871e1f6d.css",
+    "static/js/main.b56e070b.js"
   ]
 }
