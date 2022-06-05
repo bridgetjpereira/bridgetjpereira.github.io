@@ -950,9 +950,9 @@
   }
 
   .flyingplane {
-    width: 10em;
-    height: 5em;
-    margin-top: 6em;
+    width: 13em;
+    height: 8em;
+    padding-bottom: 2em;
   }
 
   .skillssectionboxflex {
@@ -1165,27 +1165,25 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .skillstitle {
     color: #f6d7ba;
-    font-size: 4em;
-    margin-left: 2em;
+    font-size: 3.5em;
+    margin-left: 1em;
     margin-top: 1em;
     font-family: "Merriweather", serif;
-    width: 10em;
-    margin-left: 2em;
   }
 
   .skillslisttwo {
-    margin-right: 2.4em;
+    margin-right: 1em;
   }
 
   .skillslist {
-    margin-left: 2.4em;
+    margin-left: 0.5em;
   }
 
   .navigationpinflex {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25em;
+    width: 23em;
   }
 
   .skillsboxflexrow {
@@ -1222,7 +1220,7 @@
 
   .skillslistbox {
     text-align: center;
-    width: 30em;
+    width: 23em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
     padding: 2em;
@@ -1258,9 +1256,6 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 8em;
-    margin-top: 0.2em;
-    text-align: center;
     width: 8em;
     margin-top: 0.2em;
     text-align: center;
@@ -1414,7 +1409,7 @@
     background-size: width 100%;
     background-size: height 80%;
     background-color: #7b9eba;
-    width: 80vw;
+    width: 90vw;
     height: 80vh;
     box-shadow: 0 1px 3px 0px #5c5959;
     border-radius: 1em;
@@ -1554,7 +1549,12 @@
   }
 
   .flyingplane {
-    width: 16em;
-    height: 8em;
+    width: 15em;
+    height: 15em;
+    padding-top: 8em;
+  }
+
+  .imageflex {
+    height: 20vh;
   }
 }

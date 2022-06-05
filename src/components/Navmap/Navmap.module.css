@@ -576,7 +576,7 @@
 
   .navigationpin {
     height: 4em;
-    width: 3em;
+    width: 4em;
     padding-bottom: 0.1em;
   }
 
@@ -595,7 +595,7 @@
 
   .navigationbuttongriditem5 {
     border-color: #7b9eba;
-    font-size: 1em;
+    font-size: 1.4em;
     font-style: "Inter", sans-serif;
     border: 0.1em solid #7b9eba;
     border-radius: 0.5em;
@@ -613,7 +613,7 @@
 
   .navigationbuttongriditem6 {
     border-color: #7b9eba;
-    font-size: 1em;
+    font-size: 1.4em;
     font-style: "Inter", sans-serif;
     border: 0.1em solid #7b9eba;
     border-radius: 0.5em;
@@ -667,13 +667,13 @@
     align-items: center;
     z-index: 20;
     position: absolute;
-    top: 38%;
+    top: 23%;
     right: 30%;
   }
 
   .navigationbuttongriditem8 {
     border-color: #7b9eba;
-    font-size: 1em;
+    font-size: 1.4em;
     font-style: "Inter", sans-serif;
     border: 0.1em solid #7b9eba;
     border-radius: 0.5em;
@@ -686,7 +686,7 @@
 
   .navigationbuttongriditem7 {
     border-color: #7b9eba;
-    font-size: 1em;
+    font-size: 1.4em;
     font-style: "Inter", sans-serif;
     border: 0.1em solid #7b9eba;
     border-radius: 0.5em;

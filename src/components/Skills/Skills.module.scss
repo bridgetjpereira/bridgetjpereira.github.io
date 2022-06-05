@@ -934,9 +934,9 @@
   }
 
   .flyingplane {
-    width: 10em;
-    height: 5em;
-    margin-top: 6em;
+    width: 13em;
+    height: 8em;
+    padding-bottom: 2em;
   }
 
   .skillssectionboxflex {
@@ -988,7 +988,8 @@
   }
 
   .skillssectionbox {
-    background: url("../../croppedfinaljunglewhole gradient.svg") bottom no-repeat;
+    background: url("../../croppedfinaljunglewhole gradient.svg") bottom
+      no-repeat;
     background-size: width 100%;
     background-size: height 80%;
     background-color: #7b9eba;
@@ -1144,27 +1145,25 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .skillstitle {
     color: #f6d7ba;
-    font-size: 4em;
-    margin-left: 2em;
+    font-size: 3.5em;
+    margin-left: 1em;
     margin-top: 1em;
     font-family: "Merriweather", serif;
-    width: 10em;
-    margin-left: 2em;
   }
   .skillslisttwo {
-    margin-right: 2.4em;
+    margin-right: 1em;
   }
   .skillslist {
-    margin-left: 2.4em;
+    margin-left: 0.5em;
   }
-  
+
   .navigationpinflex {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25em;
+    width: 23em;
   }
-  
+
   .skillsboxflexrow {
     display: flex;
     flex-direction: row;
@@ -1185,7 +1184,7 @@
     height: 50vh;
     margin-right: 15em;
   }
-  
+
   .skillsparagraphlistflex {
     display: flex;
     flex-direction: row;
@@ -1193,10 +1192,10 @@
   .skillsparagraphinnerbox {
     background-color: white;
   }
-  
+
   .skillslistbox {
     text-align: center;
-    width: 30em;
+    width: 23em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
     padding: 2em;
@@ -1205,7 +1204,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
-  
+
   .skillslistinnerbox {
     background-color: white;
     padding: 0.5em;
@@ -1218,7 +1217,7 @@
     width: 8em;
     text-align: center;
   }
-  
+
   .React {
     color: white;
     border-radius: 0.5em;
@@ -1227,7 +1226,7 @@
     margin-top: 0.2em;
     text-align: center;
   }
-  
+
   .Firebase {
     color: white;
     border-radius: 0.5em;
@@ -1235,11 +1234,8 @@
     width: 8em;
     margin-top: 0.2em;
     text-align: center;
-    width: 8em;
-    margin-top: 0.2em;
-    text-align: center;
   }
-  
+
   .HTML {
     color: white;
     border-radius: 0.5em;
@@ -1249,7 +1245,7 @@
     text-align: center;
     width: 8em;
   }
-  
+
   .Sass {
     color: white;
     border-radius: 0.5em;
@@ -1259,7 +1255,7 @@
     text-align: center;
     width: 8em;
   }
-  
+
   .Node {
     color: white;
     border-radius: 0.5em;
@@ -1269,7 +1265,7 @@
     text-align: center;
     width: 8em;
   }
-  
+
   .CSS {
     color: white;
     border-radius: 0.5em;
@@ -1279,7 +1275,7 @@
     text-align: center;
     width: 8em;
   }
-  
+
   .Adobe {
     text-align: center;
     color: white;
@@ -1290,7 +1286,7 @@
     background-color: #7b9eba;
     border-radius: 0.5em;
   }
-  
+
   .agile {
     color: white;
     border-radius: 0.5em;
@@ -1300,7 +1296,7 @@
     text-align: center;
     margin-left: 1em;
   }
-  
+
   .testing {
     color: white;
     border-radius: 0.5em;
@@ -1310,7 +1306,7 @@
     text-align: center;
     margin-left: 1em;
   }
-  
+
   .git {
     color: white;
     border-radius: 0.5em;
@@ -1320,7 +1316,7 @@
     text-align: center;
     margin-left: 1em;
   }
-  
+
   .bash {
     color: white;
     border-radius: 0.5em;
@@ -1330,7 +1326,7 @@
     text-align: center;
     margin-left: 1em;
   }
-  
+
   .OOP {
     color: white;
     border-radius: 0.5em;
@@ -1340,7 +1336,7 @@
     text-align: center;
     margin-left: 1em;
   }
-  
+
   .APIs {
     color: white;
     border-radius: 0.5em;
@@ -1350,7 +1346,7 @@
     text-align: center;
     margin-left: 1em;
   }
-  
+
   .vscode {
     color: white;
     border-radius: 0.5em;
@@ -1367,7 +1363,7 @@
     justify-content: flex-end;
     justify-content: space-between;
   }
-  
+
   .skillslisttwoflex {
     display: flex;
     flex-direction: row;
@@ -1380,31 +1376,32 @@
     width: 80vw;
     padding-right: 6em;
   }
-  
+
   .skillssectionbox {
-    background: url("../../croppedfinaljunglewhole gradient.svg") bottom no-repeat;
+    background: url("../../croppedfinaljunglewhole gradient.svg") bottom
+      no-repeat;
     background-size: width 100%;
     background-size: height 80%;
     background-color: #7b9eba;
-    width: 80vw;
+    width: 90vw;
     height: 80vh;
     box-shadow: 0 1px 3px 0px #5c5959;
     border-radius: 1em;
     margin-top: 3em;
   }
-  
+
   .navigationpin {
     height: 4em;
     width: 4em;
   }
-  
+
   .pinflex {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 25em;
   }
-  
+
   .skillsparagraph {
     color: #fcbc80;
     text-align: center;
@@ -1416,18 +1413,18 @@
     background-color: white;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   }
-  
+
   .skillsparagraph:hover {
     animation: swing ease-in-out 1s infinite alternate;
     transform-origin: center -20px;
     float: left;
   }
-  
+
   .swing img {
     border: 5px solid #f8f8f8;
     display: block;
   }
-  
+
   .swing:after {
     content: "";
     position: absolute;
@@ -1441,7 +1438,7 @@
     border-right: none;
     transform: rotate(45deg);
   }
-  
+
   .swing:before {
     content: "";
     position: absolute;
@@ -1453,7 +1450,7 @@
     border-radius: 50% 50%;
     background: #000;
   }
-  
+
   @keyframes swing {
     0% {
       transform: rotate(3deg);
@@ -1462,18 +1459,18 @@
       transform: rotate(-2deg);
     }
   }
-  
+
   .skillslistbox:hover {
     animation: swing ease-in-out 1s infinite alternate;
     transform-origin: center -20px;
     float: left;
   }
-  
+
   .swing img {
     border: 5px solid #f8f8f8;
     display: block;
   }
-  
+
   .swing:after {
     content: "";
     position: absolute;
@@ -1499,7 +1496,7 @@
     border-radius: 50% 50%;
     background: #000;
   }
-  
+
   @keyframes swing {
     0% {
       transform: rotate(3deg);
@@ -1508,7 +1505,7 @@
       transform: rotate(-2deg);
     }
   }
-  
+
   .skillssectionboxflex {
     display: flex;
     flex-direction: row;
@@ -1516,19 +1513,23 @@
     padding-top: 7em;
     // padding-top: 10.5em;
   }
-  
+
   .skillsparagraphlistflex {
     display: flex;
     flex-direction: column;
   }
-  
+
   .skillsparagraphinnerbox {
     background-color: white;
     padding: 2em;
   }
-  
+
   .flyingplane {
-    width: 16em;
-    height: 8em;
+    width: 15em;
+    height: 15em;
+    padding-top: 8em;
+  }
+  .imageflex{
+    height: 20vh;
   }
 }

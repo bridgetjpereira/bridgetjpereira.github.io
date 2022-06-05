@@ -424,11 +424,12 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    padding-top: 10em;
   }
 
   .planepile {
-    height: 18em;
-    width: 18em;
+    height: 20em;
+    width: 20em;
     padding-bottom: 0em;
   }
 

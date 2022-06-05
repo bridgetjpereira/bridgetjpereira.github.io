@@ -160,8 +160,8 @@ button {
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .projectTitle {
-    width: 9.5em;
-    height: 9.5em;
+    width: 10em;
+    height: 10em;
     border-radius: 10px;
     padding: 0.9em;
     justify-content: center;
@@ -174,9 +174,10 @@ button {
     border: solid 2px;
     text-align: center;
     padding: 0.5em;
+
   }
   h3 {
-    
+    display: none;
   }
   .projectLinkProject {
     font-size: 0.6em;
@@ -192,7 +193,7 @@ button {
   }
   .projectLinks {
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
     background-color: none;
     border: none;
     text-decoration: none;
@@ -200,6 +201,13 @@ button {
     margin-left: 0.5em;
     padding-top: 0.5em;
   }
+
+.linkFlexProjectCode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 1em;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

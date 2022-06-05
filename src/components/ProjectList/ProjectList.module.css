@@ -39,7 +39,7 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 9.5em);
+    grid-template-columns: repeat(auto-fill, 10em);
     grid-column-gap: 0.7em;
     grid-row-gap: 0.7em;
     justify-content: center;
@@ -47,6 +47,7 @@
     margin: 0.5em;
     margin-left: 0em;
     margin-right: 0em;
+    margin-top: 3em;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -60,5 +61,6 @@
     margin: 0.5em;
     margin-left: 0em;
     margin-right: 0em;
+    margin-top: 5em;
   }
 }
