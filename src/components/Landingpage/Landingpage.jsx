@@ -10,17 +10,14 @@ const Landingpage = () => {
       <div className={styles.mainpage}>
         <a name="landing"></a>
 
-       
-          <div className={styles.titlepagetop}>
-            <img className={styles.flyingplane} src={flyingplane} />
-          </div>
-          <main className={styles.mainflex}>
+        <div className={styles.titlepagetop}>
+          <img className={styles.flyingplane} src={flyingplane} />
+        </div>
+        <main className={styles.mainflex}>
           <div className={styles.gridlandingpage}>
             <div className={styles.titleflex}>
-          
               <div className={styles.landingtitle}>Bridget Pereira</div>
-              <div className={styles.abouttext}>Junior Web Developer</div>
-         
+              <div className={styles.abouttext}>Web Developer</div>
             </div>
             <h1 className={styles.comeonin}>
               <a href="#map">
@@ -35,18 +32,18 @@ const Landingpage = () => {
                 </div>
               </a>
             </h1>
-            
+
             <div className={styles.container}>
               <div className={styles.field}>
-              <a href="#map">
-                {/* <div className={styles.mouse}></div> */}
-                <div className={styles.scroll}></div>
+                <a href="#map">
+                  {/* <div className={styles.mouse}></div> */}
+                  <div className={styles.scroll}></div>
                 </a>
                 {/* <div className={styles.arrow}></div> */}
               </div>
             </div>
           </div>
-         
+
           <div className={styles.landingfooterflex}>
             <img className={styles.planepile} src={paperaeroplanepile} />
           </div>
