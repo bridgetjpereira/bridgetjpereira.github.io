@@ -7,6 +7,7 @@ const projects = [
     color: "#f6d7ba",
     image_window_url: "knowastelabel2.jpg",
     url: "https://github.com/andynology/knowaste-v2",
+    project_link: "",
   },
 
   {
@@ -17,6 +18,7 @@ const projects = [
     color: "#f7d544",
     image_window_url: "dogportraittestlabel.jpg",
     url: "https://github.com/bridgetjpereira/Game",
+    project_link: "Game",
   },
 
   {
@@ -27,6 +29,7 @@ const projects = [
     color: "#f6d7ba",
     image_window_url: "hostilealiengamelabel2.jpg",
     url: "https://github.com/bridgetjpereira/Hostile-Alien-Game",
+    project_link: "Hostile-Alien-Game",
   },
 
   {
@@ -37,6 +40,7 @@ const projects = [
     color: "#21a2d5",
     image_window_url: "tickettrackerlabel2.jpg",
     url: "https://github.com/bridgetjpereira/Employee-tracker",
+    project_link: "Employee-tracker",
   },
 
   {
@@ -47,6 +51,7 @@ const projects = [
     color: "#9fcba0",
     image_window_url: "calculatormodaltestlabel2.jpg",
     url: "https://github.com/bridgetjpereira/calculator",
+    project_link: "calculator",
   },
 
   {
@@ -57,6 +62,7 @@ const projects = [
     color: "#21a2d5",
     image_window_url: "brewdogmodallabel3.jpg",
     url: "https://github.com/bridgetjpereira/brewdog-site",
+    project_link: "brewdog-site",
   },
 ];
 

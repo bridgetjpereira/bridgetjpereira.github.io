@@ -7,7 +7,8 @@ import Modal from "../Modal/Modal";
 
 const Projectbox = (props) => {
   const { project, closeModal } = props;
-  const { name, tagline, color, image_window_url, url } = props.project;
+  const { name, tagline, color, image_window_url, url, project_link } =
+    props.project;
 
   let images = require.context("../../../public/images", true);
   let imagepath = images(`./${image_window_url}`);
@@ -58,7 +59,7 @@ const Projectbox = (props) => {
                 <div>
                   <div className={styles.linkFlexProjectCode}>
                     <div className={styles.linkFlexProject}>
-                      <a className={styles.projectLinks}>
+                      <a href={project_link} className={styles.projectLinks}>
                         <FontAwesomeIcon icon="angles-right" />
                         <div
                           className={styles.projectLinkProject}
