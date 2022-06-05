@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c144242d.css",
-    "main.js": "/static/js/main.25bc482f.js",
+    "main.js": "/static/js/main.6ab5715d.js",
     "static/js/787.fe039db8.chunk.js": "/static/js/787.fe039db8.chunk.js",
     "static/media/coralmodalboxnowaste.png": "/static/media/coralmodalboxnowaste.e11a760e6519b98ce8b9.png",
     "static/media/squarecrop.jpg": "/static/media/squarecrop.7212411d3cfdb79b5c63.jpg",
@@ -68,11 +68,11 @@
     "static/media/pin1_svg.svg": "/static/media/pin1_svg.71efcf769c41227ebd6b509b249d8858.svg",
     "index.html": "/index.html",
     "main.c144242d.css.map": "/static/css/main.c144242d.css.map",
-    "main.25bc482f.js.map": "/static/js/main.25bc482f.js.map",
+    "main.6ab5715d.js.map": "/static/js/main.6ab5715d.js.map",
     "787.fe039db8.chunk.js.map": "/static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c144242d.css",
-    "static/js/main.25bc482f.js"
+    "static/js/main.6ab5715d.js"
   ]
 }
