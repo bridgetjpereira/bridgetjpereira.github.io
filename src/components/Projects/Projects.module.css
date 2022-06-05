@@ -85,3 +85,18 @@
     font-family: "Merriweather", serif;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .projecttitleflex {
+    margin-top: 8em;
+    width: 90vw;
+    height: 80vh;
+  }
+
+  .projectstitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+}

@@ -689,19 +689,156 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .worldmap {
-    background-color: #7b9eba;
-    background: url("../../sharpenedworldmaprepositioned.png") bottom no-repeat;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    min-height: 80vh;
-    max-width: 80vw;
-    background-size: 98vw;
+    background: url("../../cropped map Britain.svg") bottom;
+    background-size: 80vw 66vh;
     background-repeat: no-repeat;
-    // height: 80vh;
+    margin-left: 1.2em;
+  }
+  .navigationgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-height: 90vh;
+    max-width: 90vw;
+  }
+  .worldmapcontainer {
+    max-height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 90vw;
+  }
+  .navmapsection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 80vh;
+    box-shadow: 0 1px 3px 0px #5c5959;
+    border-radius: 1em;
+    margin-top: 8em;
   }
 
-  .worldmapflex {
-    width: 80vw;
+  .navigationpin {
+    height: 5em;
+    width: 5em;
+    padding-bottom: 0.1em;
+    // z-index: 600;
+  }
+  .navigationflexcontainer1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 69%;
+    left: 58%;
+  }
+  .navigationbuttongriditem5 {
+    border-color: #7b9eba;
+    font-size: 1.5em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
+  }
+  .navigationbuttongriditem6 {
+    border-color: #7b9eba;
+    font-size: 1.5em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
+  }
+
+  .navigationflexcontainer2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    position: absolute;
+    top: 95%;
+    left: 27%;
+  }
+
+  .navigationflexcontainer3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 20;
+    position: absolute;
+    top: 38%;
+    left: 14%;
+  }
+
+  .navigationflexcontainer4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 20;
+    position: absolute;
+    top: 25%;
+    right: 36%;
+  }
+  .navigationbuttongriditem8 {
+    border-color: #7b9eba;
+    font-size: 1.5em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: fit-content;
+    font-family: "Merriweather", serif;
+  }
+
+  .navigationbuttongriditem7 {
+    border-color: #7b9eba;
+    font-size: 1.5em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
   }
 }

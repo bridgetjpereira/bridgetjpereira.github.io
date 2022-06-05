@@ -46,8 +46,6 @@
 
 .projects a {
   color: #9fcba0;
-
-  // padding-top: 1em;
   font-size: 1.7em;
 }
 
@@ -57,8 +55,6 @@
 
 .skills a {
   color: #f6d7ba;
-
-  // padding-top: 2em;
   font-size: 1.7em;
 }
 
@@ -68,9 +64,8 @@
 
 .sayhello a {
   color: #f7d544;
-
   font-size: 1.7em;
-  // padding-top: 2em;
+
 }
 
 .sayhello a:hover {
@@ -89,7 +84,6 @@
   flex-direction: row;
   gap: 10px;
   margin-right: 11em;
-  // margin-top: 5em;
 }
 
 .menuWidget {
@@ -137,8 +131,10 @@
     background-color: white;
     border-top: 1px solid #7b9eba;
     display: none;
-    // padding-top: 20px;
+    font-size: 1.5em;
+    padding-top: 2em;
   }
+  
 
   .navItemsFlexExpanded {
     flex-direction: column;
@@ -147,27 +143,13 @@
     left: 0;
     min-width: 100%;
     height: 100vh;
-    // height:100%;
     background-color: white;
     border-top: 1px solid #7b9eba;
     display: block;
     text-align: center;
     margin: 0;
   }
-  // .navsection {
-  //   position: sticky;
-  //   top: 0;
-  //   left: 0;
-  //   width: 100%;
-  //   height: 6.5em;
-  //   box-shadow: 0 2px 6px -5px #000000;
-  //   background-color: white;
-  //   // animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  //   // padding-top: 2em;
-  //   z-index: 100;
-  //   align-items: center;
-  //   width: 100%;
-  // }
+
 }
 
 @media only screen and (min-width: 426px) and (max-width: 480px) {
@@ -200,7 +182,6 @@
     background-color: white;
     border-top: 1px solid #7b9eba;
     display: none;
-    // padding-top: 20px;
   }
 
   .navItemsFlexExpanded {
@@ -210,27 +191,13 @@
     left: 0;
     min-width: 100%;
     height: 100vh;
-    // height:100%;
     background-color: white;
     border-top: 1px solid #7b9eba;
     display: block;
     text-align: center;
     margin: 0;
   }
-  // .navsection {
-  //   position: sticky;
-  //   top: 0;
-  //   left: 0;
-  //   width: 100%;
-  //   height: 6.5em;
-  //   box-shadow: 0 2px 6px -5px #000000;
-  //   background-color: white;
-  //   // animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  //   // padding-top: 2em;
-  //   z-index: 100;
-  //   align-items: center;
-  //   width: 100%;
-  // }
+  
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -279,9 +246,11 @@
     display: block;
     text-align: center;
     margin: 0;
+    font-size: 1.5em;
+    padding-top: 2em;
   }
+  
   .navsection {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
@@ -289,12 +258,71 @@
     height: 6.5em;
     box-shadow: 0 2px 6px -5px #000000;
     background-color: white;
-    // animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-    // padding-top: 2em;
     z-index: 100;
     align-items: center;
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .menuWidget {
+    display: block;
+    margin-right: 1em;
+  }
+
+  .bridget {
+    margin-left: 3em;
+    margin-top: 1.8em;
+  }
+
+  .navflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-left: 0em;
+  }
+
+  .navItemsFlex ul {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    min-width: 100%;
+    height: calc(100vh - 60px);
+    background-color: white;
+    border-top: 1px solid #7b9eba;
+    display: none;
+    padding-top: 20px;
+  }
+
+  .navItemsFlexExpanded {
+    flex-direction: column;
+    position: absolute;
+    top: 128px;
+    left: 0;
+    min-width: 100%;
+    height: 100vh;
+    // height:100%;
+    background-color: white;
+    border-top: 1px solid #7b9eba;
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    padding-top: 2em;
+  }
+  .navsection {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6.5em;
+    box-shadow: 0 2px 6px -5px #000000;
+    background-color: white;
+    z-index: 100;
+    align-items: center;
+    width: 100%;
+  }
 }
+

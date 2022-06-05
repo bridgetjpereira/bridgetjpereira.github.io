@@ -49,3 +49,16 @@
     margin-right: 0em;
   }
 }
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 11em);
+    grid-column-gap: 0.7em;
+    grid-row-gap: 0.7em;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}
