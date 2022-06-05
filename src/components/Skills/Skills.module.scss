@@ -415,9 +415,10 @@
 
   .skillstitlenotecardflex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     height: 50vh;
+    margin-right: 5em;
   }
   .skillslistinnerbox {
     background-color: white;
@@ -435,7 +436,7 @@
   .flyingplane {
     width: 10em;
     height: 5em;
-    margin-top: 1em;
+    margin-top: 6em;
   }
 
   .skillssectionboxflex {
@@ -487,7 +488,8 @@
   }
 
   .skillssectionbox {
-    background: url("../../croppedfinaljunglewhole gradient.svg") bottom no-repeat;
+    background: url("../../croppedfinaljunglewhole gradient.svg") bottom
+      no-repeat;
     background-size: width 100%;
     background-size: height 80%;
     background-color: #7b9eba;
@@ -511,7 +513,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     text-align: center;
   }
 
@@ -519,7 +521,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -528,7 +530,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -537,7 +539,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -546,7 +548,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -555,7 +557,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -569,13 +571,14 @@
     margin-left: 0.5em;
     background-color: #7b9eba;
     border-radius: 0.5em;
+    margin-right: 2em;
   }
 
   .agile {
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -585,7 +588,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -595,7 +598,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -605,7 +608,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -615,7 +618,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -625,7 +628,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -634,8 +637,10 @@
 
   .skillsboxflex {
     width: 80%;
-    margin-top: 5em;
+    // margin-top: 5em;
     padding-right: 5em;
+    padding-left: 7em;
+    padding-bottom: 1em;
   }
 }
 

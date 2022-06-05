@@ -229,7 +229,6 @@
   .navigationpin {
     height: 3em;
     width: 4em;
-    // padding-bottom: 0.1em;
   }
 
   .worldmapflex {
@@ -303,9 +302,9 @@
     width: 1vw;
     height: 1vh;
     padding-top: 0.5em;
-    padding-bottom:  0.5em;
+    padding-bottom: 0.5em;
     padding-left: 0.5em;
-    padding-right:  0.5em;
+    padding-right: 0.5em;
     font-family: "Merriweather", serif;
   }
   .navigationbuttongriditem6 {
@@ -320,9 +319,9 @@
     width: 1vw;
     height: 1vh;
     padding-top: 0.5em;
-    padding-bottom:  0.5em;
+    padding-bottom: 0.5em;
     padding-left: 0.5em;
-    padding-right:  0.5em;
+    padding-right: 0.5em;
     font-family: "Merriweather", serif;
   }
 
@@ -338,9 +337,9 @@
     width: 1vw;
     height: 1vh;
     padding-top: 0.5em;
-    padding-bottom:  0.5em;
+    padding-bottom: 0.5em;
     padding-left: 0.5em;
-    padding-right:  0.5em;
+    padding-right: 0.5em;
     font-family: "Merriweather", serif;
   }
 
@@ -369,9 +368,9 @@
     width: 1vw;
     height: 1vh;
     padding-top: 0.5em;
-    padding-bottom:  0.5em;
+    padding-bottom: 0.5em;
     padding-left: 0.5em;
-    padding-right:  0.5em;
+    padding-right: 0.5em;
     font-family: "Merriweather", serif;
   }
 }
@@ -391,18 +390,19 @@
     max-width: 90vw;
   }
   .worldmapcontainer {
-    max-height: 80vh;
+    max-height: 72vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    max-width: 90vw;
   }
   .navmapsection {
     background-color: #7b9eba;
     width: 90vw;
-    height: 90vh;
+    height: 80vh;
     box-shadow: 0 1px 3px 0px #5c5959;
     border-radius: 1em;
-    margin-top: 2em;
+    margin-top: 8em;
   }
 
   .navigationpin {
@@ -417,14 +417,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    grid-column-start: 6;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 5;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
-    // margin-left: 3em;
+    position: absolute;
+    top: 70%;
+    left: 62.5%;
   }
   .navigationbuttongriditem5 {
     border-color: #7b9eba;
@@ -437,15 +434,15 @@
     text-align: center;
     width: 1vw;
     height: 1vh;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     font-family: "Merriweather", serif;
   }
   .navigationbuttongriditem6 {
     border-color: #7b9eba;
-    font-size: 1em;
+    font-size: 1.5em;
     font-style: "Inter", sans-serif;
     border: 0.1em solid #7b9eba;
     border-radius: 0.5em;
@@ -454,28 +451,10 @@
     text-align: center;
     width: 1vw;
     height: 1vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: "Merriweather", serif;
-  }
-
-  .navigationbuttongriditem5 {
-    border-color: #7b9eba;
-    font-size: 1em;
-    font-style: "Inter", sans-serif;
-    border: 0.1em solid #7b9eba;
-    border-radius: 0.5em;
-    background-color: #fafafa;
-    color: #7b9eba;
-    text-align: center;
-    width: 1vw;
-    height: 1vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     font-family: "Merriweather", serif;
   }
 
@@ -485,12 +464,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 5;
     justify-content: center;
     align-items: center;
+    z-index: 20;
+    position: absolute;
+    top: 91%;
+    left: 26%;
   }
 
   .navigationflexcontainer3 {
@@ -499,27 +478,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
     justify-content: flex-end;
     align-items: center;
-    // margin-top: 9em;
+    z-index: 20;
+    position: absolute;
+    top: 38%;
+    left: 8%;
   }
 
   .navigationflexcontainer4 {
     display: flex;
-    // flex-wrap: nowrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 3;
     justify-content: flex-end;
     align-items: center;
+    z-index: 20;
+    position: absolute;
+    top: 38%;
+    right: 30%;
   }
   .navigationbuttongriditem8 {
     border-color: #7b9eba;
@@ -545,23 +523,13 @@
     text-align: center;
     width: 1vw;
     height: 1vh;
-    padding-top: 2px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     font-family: "Merriweather", serif;
   }
-
-  // .navmapsectionflex {
-  //   max-height: 80vh;
-  // }
 }
-
-// .worldmapflex {
-//   margin-top: 6em;
-// }
-
-//
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .worldmap {

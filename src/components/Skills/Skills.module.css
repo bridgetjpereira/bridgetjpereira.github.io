@@ -421,9 +421,10 @@
 
   .skillstitlenotecardflex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     height: 50vh;
+    margin-right: 5em;
   }
 
   .skillslistinnerbox {
@@ -443,7 +444,7 @@
   .flyingplane {
     width: 10em;
     height: 5em;
-    margin-top: 1em;
+    margin-top: 6em;
   }
 
   .skillssectionboxflex {
@@ -524,7 +525,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     text-align: center;
   }
 
@@ -532,7 +533,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -541,7 +542,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -550,7 +551,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -559,7 +560,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -568,7 +569,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
   }
@@ -582,13 +583,14 @@
     margin-left: 0.5em;
     background-color: #7b9eba;
     border-radius: 0.5em;
+    margin-right: 2em;
   }
 
   .agile {
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -598,7 +600,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -608,7 +610,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -618,7 +620,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -628,7 +630,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -638,7 +640,7 @@
     color: white;
     border-radius: 0.5em;
     background-color: #7b9eba;
-    width: 5.5em;
+    width: 6em;
     margin-top: 0.2em;
     text-align: center;
     margin-left: 0.5em;
@@ -647,8 +649,9 @@
 
   .skillsboxflex {
     width: 80%;
-    margin-top: 5em;
     padding-right: 5em;
+    padding-left: 7em;
+    padding-bottom: 1em;
   }
 }
 @media only screen and (min-width: 426px) and (max-width: 480px) {
