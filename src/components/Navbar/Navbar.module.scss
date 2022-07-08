@@ -148,7 +148,30 @@
     margin: 0;
   }
 }
-
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .bridget {
+    margin-left: 0em;
+    margin-top: 1.5em;
+    font-size: 0.62em;
+  }
+  .menuWidget {
+    display: block;
+    margin-right: 0em;
+    font-size: 2.2em;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .bridget {
+    margin-left: 0em;
+    margin-top: 1.5em;
+    font-size: 0.8em;
+  }
+  .menuWidget {
+    display: block;
+    margin-right: 0.5em;
+    font-size: 2.2em;
+  }
+}
 @media only screen and (min-width: 426px) and (max-width: 480px) {
   .menuWidget {
     display: block;
@@ -195,7 +218,66 @@
     margin: 0;
   }
 }
+@media only screen and (min-width: 375px) and (max-width: 480px) {
+  .menuWidget {
+    display: block;
+    margin-right: 0.1em;
+  }
 
+  .bridget {
+    margin-left: 0.1em;
+    margin-top: 0.8em;
+  }
+
+  .navflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-left: 0em;
+  }
+  .navItemsFlex ul {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    min-width: 100%;
+    height: calc(100vh - 60px);
+    background-color: white;
+    border-top: 1px solid #7b9eba;
+    display: none;
+    padding-top: 20px;
+  }
+
+  .navItemsFlexExpanded {
+    flex-direction: column;
+    position: absolute;
+    top: 128px;
+    left: 0;
+    min-width: 100%;
+    height: 100vh;
+    // height:100%;
+    background-color: white;
+    border-top: 1px solid #7b9eba;
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .navsection {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6.5em;
+    box-shadow: 0 2px 6px -5px #000000;
+    background-color: white;
+    z-index: 100;
+    align-items: center;
+    width: 100%;
+  }
+}
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .menuWidget {
     display: block;
