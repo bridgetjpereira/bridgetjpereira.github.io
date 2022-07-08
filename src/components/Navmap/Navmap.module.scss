@@ -194,6 +194,12 @@
 }
 
 @media only screen and (min-width: 319px) and (max-width: 374px) {
+  .worldmap {
+    background: url("../../cropped map Britain.svg") bottom;
+    background-size: 78vw 66vh;
+    background-repeat: no-repeat;
+    margin-left: 1.2em;
+  }
   .navigationflexcontainer4 {
     display: flex;
     flex-wrap: nowrap;
@@ -203,11 +209,182 @@
     justify-content: flex-end;
     align-items: center;
     position: absolute;
-    top: 70%;
-    right: 10%;
+    top: 50%;
+    right: 30%;
+  }
+
+  .navigationgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-height: 90vh;
+    max-width: 90vw;
+  }
+  .worldmapcontainer {
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 90vw;
+  }
+  .navmapsection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 80vh;
+    box-shadow: 0 1px 3px 0px #5c5959;
+    border-radius: 1em;
+    margin-top: 8em;
+  }
+
+  .navigationpin {
+    height: 3em;
+    width: 4em;
+  }
+
+  .worldmapflex {
+    width: 80vw;
+    height: 80vh;
+  }
+  .navigationflexcontainer1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+  }
+
+  .navigationflexcontainer2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    position: absolute;
+    top: 81%;
+    left: 26%;
+  }
+
+  .navigationflexcontainer3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 20;
+    position: absolute;
+    top: 42%;
+    left: 5%;
+  }
+
+  .navigationflexcontainer4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 20;
+    position: absolute;
+    top: 28%;
+    right: 30%;
+  }
+
+  .navigationbuttongriditem5 {
+    border-color: #7b9eba;
+    font-size: 1em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
+  }
+  .navigationbuttongriditem6 {
+    border-color: #7b9eba;
+    font-size: 1em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
+  }
+
+  .navigationbuttongriditem5 {
+    border-color: #7b9eba;
+    font-size: 1em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
+  }
+
+  .navigationbuttongriditem8 {
+    border-color: #7b9eba;
+    font-size: 1em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: fit-content;
+    font-family: "Merriweather", serif;
+  }
+
+  .navigationbuttongriditem7 {
+    border-color: #7b9eba;
+    font-size: 1em;
+    font-style: "Inter", sans-serif;
+    border: 0.1em solid #7b9eba;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #7b9eba;
+    text-align: center;
+    width: 1vw;
+    height: 1vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Merriweather", serif;
   }
 }
-@media screen and (max-width: 425px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
   .worldmap {
     background: url("../../cropped map Britain.svg") bottom;
     background-size: 78vw 66vh;
@@ -256,8 +433,8 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 70%;
-    left: 62.5%;
+    top: 61%;
+    left: 60%;
   }
 
   .navigationflexcontainer2 {
@@ -270,7 +447,7 @@
     align-items: center;
     z-index: 20;
     position: absolute;
-    top: 91%;
+    top: 78%;
     left: 26%;
   }
 
@@ -284,7 +461,7 @@
     align-items: center;
     z-index: 20;
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 8%;
   }
 
@@ -298,7 +475,7 @@
     align-items: center;
     z-index: 20;
     position: absolute;
-    top: 38%;
+    top: 35%;
     right: 30%;
   }
 
@@ -587,8 +764,8 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 70%;
-    left: 62.5%;
+    top: 60%;
+    left:55%;
   }
   .navigationbuttongriditem5 {
     border-color: #7b9eba;
