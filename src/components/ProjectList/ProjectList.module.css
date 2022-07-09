@@ -13,7 +13,7 @@
 @media only screen and (min-width: 319px) and (max-width: 374px) {
   .content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 8em);
+    grid-template-columns: repeat(auto-fill, 6em);
     grid-column-gap: 0.8em;
     grid-row-gap: 0.8em;
     justify-content: center;

@@ -13,7 +13,23 @@
   border-radius: 10px;
 }
 
-@media only screen and (min-width: 319px) and (max-width: 425px) {
+@media only screen and (min-width: 319px) and (max-width: 374px) {
+  .Projectlabel {
+    color: white;
+    background-color: white;
+    width: 6em;
+    height: 6em;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(80, 174, 245, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+  }
+
+  .imagepath {
+    width: 6em;
+    height: 6em;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
   .Projectlabel {
     color: white;
     background-color: white;
