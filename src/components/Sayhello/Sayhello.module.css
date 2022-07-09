@@ -171,6 +171,49 @@
     font-size: 30px;
   }
 }
+@media only screen and (min-width: 319px) and (max-width: 374px) {
+  .sayhellotitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+
+  .sayhellofooter {
+    background-image: url("../../Finalbirdswire_compressed.svg");
+    width: 90vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90vw 70vh;
+  }
+
+  .sayhellosection {
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 80vh;
+    box-shadow: 0 1px 3px 0px #5c5959;
+    border-radius: 1em;
+    margin-top: 8em;
+  }
+
+  .sayhelloparagraph {
+    font-size: 1em;
+    margin-left: 3em;
+    padding-top: 0.5em;
+  }
+
+  .github a {
+    color: white;
+    font-size: 30px;
+  }
+
+  .linkedin a {
+    color: white;
+    font-size: 30px;
+  }
+}
 @media only screen and (min-width: 375px) and (max-width: 425px) {
   .sayhellotitle {
     color: #f6d7ba;
