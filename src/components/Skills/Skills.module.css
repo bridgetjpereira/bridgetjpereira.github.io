@@ -444,7 +444,7 @@
   .flyingplane {
     width: 10em;
     height: 5em;
-    margin-top: 6em;
+    margin-top: 0em;
   }
 
   .skillssectionboxflex {
@@ -911,7 +911,7 @@
 @media only screen and (min-width: 319px) and (max-width: 374px) {
   .skillslistbox {
     text-align: center;
-    width: 20em;
+    width: 16em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
     padding: 1em;
@@ -946,12 +946,14 @@
     font-size: 2.8em;
     margin-left: 1em;
     margin-top: 1em;
+    padding-bottom: 1em;
     font-family: "Merriweather", serif;
   }
 
   .flyingplane {
-    width: 16em;
-    height: 8em;
+    width: 10em;
+    height: 5em;
+    padding-bottom: 2em;
   }
 
   .skillssectionboxflex {
@@ -965,7 +967,7 @@
   }
 
   .skillslist {
-    margin-left: 1em;
+    margin-left: 0.2em;
   }
 
   .navigationpinflex {
@@ -984,7 +986,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 20em;
+    width: 16em;
   }
 
   .skillsparagraph {
@@ -1157,7 +1159,7 @@
   .skillsboxflex {
     width: 80%;
     padding-right: 5em;
-    padding-left: 15em;
+    padding-left: 1em;
     padding-bottom: 1em;
   }
 
