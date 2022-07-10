@@ -403,6 +403,260 @@
 @media only screen and (min-width: 319px) and (max-width: 374px) {
   .skillslistbox {
     text-align: center;
+    width: 14em;
+    border-radius: 0.5em;
+    border: solid 2px #f6d7ba;
+    padding: 0.5em;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .skillssectionboxflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0em;
+  }
+
+  .skillstitlenotecardflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 50vh;
+    margin-right: 5em;
+  }
+
+  .skillslistinnerbox {
+    background-color: white;
+    padding-right: 0em;
+    padding-bottom: 0em;
+  }
+
+  .skillstitle {
+    color: #f6d7ba;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Merriweather", serif;
+  }
+
+  .flyingplane {
+    width: 8em;
+    height: 5em;
+    margin-top: 6em;
+  }
+
+  .skillssectionboxflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .skillslisttwo {
+    margin-right: 0.2em;
+  }
+
+  .skillslist {
+    margin-left: 0.2em;
+  }
+
+  .navigationpinflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15em;
+  }
+
+  .navigationpin {
+    height: 2.5em;
+    width: 2.5em;
+  }
+
+  .pinflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15em;
+  }
+
+  .skillsparagraph {
+    color: #fcbc80;
+    text-align: center;
+    width: 5em;
+    border-radius: 0.5em;
+    border: solid 2px #f6d7ba;
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .cardflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 5vw;
+    padding-left: 0em;
+  }
+
+  .skillssectionbox {
+    background: url("../../croppedfinaljunglewhole gradient.svg") bottom no-repeat;
+    background-size: width 100%;
+    background-size: height 80%;
+    background-color: #7b9eba;
+    width: 90vw;
+    height: 80vh;
+    box-shadow: 0 1px 3px 0px #5c5959;
+    border-radius: 1em;
+    margin-top: 8em;
+  }
+
+  .JavaScript {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .React {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    text-align: center;
+  }
+
+  .Firebase {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+  }
+
+  .HTML {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+  }
+
+  .Sass {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+  }
+
+  .Node {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+  }
+
+  .CSS {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+  }
+
+  .Adobe {
+    text-align: center;
+    color: white;
+    border-radius: 0.5em;
+    width: 6em;
+    text-align: center;
+    margin-left: 0.5em;
+    background-color: #7b9eba;
+    border-radius: 0.5em;
+    margin-right: 2em;
+  }
+
+  .agile {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+    margin-left: 0.5em;
+  }
+
+  .testing {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+    margin-left: 0.5em;
+  }
+
+  .git {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+    margin-left: 0.5em;
+  }
+
+  .bash {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+    margin-left: 0.5em;
+  }
+
+  .OOP {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+    margin-left: 0.5em;
+  }
+
+  .APIs {
+    color: white;
+    border-radius: 0.5em;
+    background-color: #7b9eba;
+    width: 6em;
+    margin-top: 0.2em;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+  }
+
+  .skillsboxflex {
+    width: 80%;
+    padding-right: 5em;
+    padding-left: 7em;
+    padding-bottom: 1em;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .skillslistbox {
+    text-align: center;
     width: 15em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
@@ -906,524 +1160,6 @@
     padding-right: 5em;
     padding-left: 7em;
     padding-bottom: 1em;
-  }
-}
-@media only screen and (min-width: 319px) and (max-width: 374px) {
-  .skillslistbox {
-    text-align: center;
-    width: 16em;
-    border-radius: 0.5em;
-    border: solid 2px #f6d7ba;
-    padding: 1em;
-    background-color: white;
-    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  }
-
-  .skillssectionboxflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 0em;
-  }
-
-  .skillstitlenotecardflex {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 50vh;
-    margin-right: 5em;
-  }
-
-  .skillslistinnerbox {
-    background-color: white;
-    padding-right: 0em;
-    padding-bottom: 0em;
-  }
-
-  .skillstitle {
-    color: #f6d7ba;
-    font-size: 2.8em;
-    margin-left: 1em;
-    margin-top: 1em;
-    padding-bottom: 1em;
-    font-family: "Merriweather", serif;
-  }
-
-  .flyingplane {
-    width: 10em;
-    height: 5em;
-    padding-bottom: 2em;
-  }
-
-  .skillssectionboxflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .skillslisttwo {
-    margin-right: 0em;
-  }
-
-  .skillslist {
-    margin-left: 0.2em;
-  }
-
-  .navigationpinflex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 15em;
-  }
-
-  .navigationpin {
-    height: 3em;
-    width: 3em;
-  }
-
-  .pinflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 16em;
-  }
-
-  .skillsparagraph {
-    color: #fcbc80;
-    text-align: center;
-    width: 5em;
-    border-radius: 0.5em;
-    border: solid 2px #f6d7ba;
-    border-radius: 0.5em;
-    padding: 1em;
-    background-color: white;
-    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-  }
-
-  .cardflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 5vw;
-    padding-left: 0em;
-  }
-
-  .skillssectionbox {
-    background: url("../../croppedfinaljunglewhole gradient.svg") bottom no-repeat;
-    background-size: width 100%;
-    background-size: height 80%;
-    background-color: #7b9eba;
-    width: 90vw;
-    height: 80vh;
-    box-shadow: 0 1px 3px 0px #5c5959;
-    border-radius: 1em;
-    margin-top: 8em;
-  }
-
-  .JavaScript {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    text-align: center;
-    font-size: 1em;
-  }
-
-  .React {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    text-align: center;
-  }
-
-  .Firebase {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .HTML {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .Sass {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .Node {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .CSS {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .Adobe {
-    text-align: center;
-    color: white;
-    border-radius: 0.5em;
-    width: 6em;
-    text-align: center;
-    margin-left: 0.5em;
-    background-color: #7b9eba;
-    border-radius: 0.5em;
-    margin-right: 2em;
-  }
-
-  .agile {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .testing {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .git {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .bash {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .OOP {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .APIs {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-    margin-bottom: 1em;
-  }
-
-  .skillsboxflex {
-    width: 80%;
-    padding-right: 5em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-  }
-
-  .imageflex {
-    height: 30em;
-    padding-top: 5em;
-  }
-}
-@media only screen and (min-width: 375px) and (max-width: 425px) {
-  .skillslistbox {
-    text-align: center;
-    width: 20em;
-    border-radius: 0.5em;
-    border: solid 2px #f6d7ba;
-    padding: 1em;
-    background-color: white;
-    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  }
-
-  .skillssectionboxflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 0em;
-  }
-
-  .skillstitlenotecardflex {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 50vh;
-    margin-right: 5em;
-  }
-
-  .skillslistinnerbox {
-    background-color: white;
-    padding-right: 0em;
-    padding-bottom: 0em;
-  }
-
-  .skillstitle {
-    color: #f6d7ba;
-    font-size: 2.8em;
-    margin-left: 1em;
-    margin-top: 1em;
-    font-family: "Merriweather", serif;
-  }
-
-  .flyingplane {
-    width: 16em;
-    height: 8em;
-  }
-
-  .skillssectionboxflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .skillslisttwo {
-    margin-right: 0em;
-  }
-
-  .skillslist {
-    margin-left: 1em;
-  }
-
-  .navigationpinflex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 15em;
-  }
-
-  .navigationpin {
-    height: 3em;
-    width: 3em;
-  }
-
-  .pinflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 20em;
-  }
-
-  .skillsparagraph {
-    color: #fcbc80;
-    text-align: center;
-    width: 5em;
-    border-radius: 0.5em;
-    border: solid 2px #f6d7ba;
-    border-radius: 0.5em;
-    padding: 1em;
-    background-color: white;
-    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237b9eba' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-  }
-
-  .cardflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 5vw;
-    padding-left: 0em;
-  }
-
-  .skillssectionbox {
-    background: url("../../croppedfinaljunglewhole gradient.svg") bottom no-repeat;
-    background-size: width 100%;
-    background-size: height 80%;
-    background-color: #7b9eba;
-    width: 90vw;
-    height: 80vh;
-    box-shadow: 0 1px 3px 0px #5c5959;
-    border-radius: 1em;
-    margin-top: 8em;
-  }
-
-  .JavaScript {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    text-align: center;
-    font-size: 1em;
-  }
-
-  .React {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    text-align: center;
-  }
-
-  .Firebase {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .HTML {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .Sass {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .Node {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .CSS {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-  .Adobe {
-    text-align: center;
-    color: white;
-    border-radius: 0.5em;
-    width: 6em;
-    text-align: center;
-    margin-left: 0.5em;
-    background-color: #7b9eba;
-    border-radius: 0.5em;
-    margin-right: 2em;
-  }
-
-  .agile {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .testing {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .git {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .bash {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .OOP {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-  }
-
-  .APIs {
-    color: white;
-    border-radius: 0.5em;
-    background-color: #7b9eba;
-    width: 6em;
-    margin-top: 0.2em;
-    text-align: center;
-    margin-left: 0.5em;
-    margin-bottom: 1em;
-  }
-
-  .skillsboxflex {
-    width: 80%;
-    padding-right: 5em;
-    padding-left: 15em;
-    padding-bottom: 1em;
-  }
-
-  .imageflex {
-    height: 30em;
-    padding-top: 5em;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {

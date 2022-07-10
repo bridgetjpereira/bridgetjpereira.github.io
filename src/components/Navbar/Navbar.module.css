@@ -159,8 +159,16 @@
   }
 
   .bridget {
-    margin-left: 0.1em;
-    margin-top: 0.8em;
+    margin-left: 1.3em;
+    margin-top: 1.5em;
+    font-size: 1em;
+  }
+
+  .bridget a {
+    color: #9fcba0;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-left: 0em;
   }
 
   .navflex {
