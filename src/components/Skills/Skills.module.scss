@@ -436,7 +436,7 @@
   .flyingplane {
     width: 8em;
     height: 5em;
-    margin-top: 6em;
+    margin-top: 0em;
   }
 
   .skillssectionboxflex {
@@ -655,14 +655,8 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
-  
-  .skillssectionboxflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 0em;
-  }
 
+ 
   .skillstitlenotecardflex {
     display: flex;
     flex-direction: column;
@@ -686,7 +680,7 @@
   .flyingplane {
     width: 8em;
     height: 5em;
-    margin-top: 6em;
+    margin-top: 0em;
   }
 
   .skillssectionboxflex {
