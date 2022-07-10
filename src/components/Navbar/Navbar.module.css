@@ -136,6 +136,7 @@
     background-color: white;
     border-top: 1px solid #7b9eba;
     display: none;
+    padding-top: 3em;
   }
 
   .navItemsFlexExpanded {
