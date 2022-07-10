@@ -31,7 +31,9 @@
   text-align: center;
   color: white;
 }
-
+.buttoncontactme {
+  padding-top: 1em;
+}
 .buttoncontactme a:hover {
   color: #f6d7ba;
 }
@@ -126,46 +128,6 @@
 }
 
 @media only screen and (min-width: 319px) and (max-width: 374px) {
-  .sayhellofooter {
-    background-image: url("../../Finalbirdswire_compressed.svg");
-    width: 90vw;
-    height: 40vh;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 90vw 70vh;
-  }
-  .sayhelloparagraph {
-    font-size: 1em;
-    margin-left: 2em;
-    padding-top: 0.5em;
-  }
-  .email {
-    font-size: 0.8em;
-    font-weight: 250;
-    margin-left: 3em;
-    margin-right: 3em;
-    text-align: center;
-  }
-  .sayhellotitle {
-    color: #f6d7ba;
-    font-size: 2.2em;
-    margin-left: 1em;
-    margin-top: 1em;
-    font-family: "Merriweather", serif;
-  }
-
-  .github a {
-    color: white;
-    font-size: 30px;
-  }
-
-  .linkedin a {
-    color: white;
-    font-size: 30px;
-  }
-}
-
-@media only screen and (min-width: 319px) and (max-width: 374px) {
   .buttoncontactme {
     padding-top: 1em;
   }
@@ -220,7 +182,9 @@
     margin-top: 1em;
     font-family: "Merriweather", serif;
   }
-
+  .buttoncontactme {
+    padding-top: 1em;
+  }
   .sayhellofooter {
     background-image: url("../../Finalbirdswire_compressed.svg");
     width: 90vw;
@@ -264,7 +228,9 @@
     margin-top: 1em;
     font-family: "Merriweather", serif;
   }
-
+  .buttoncontactme {
+    padding-top: 1em;
+  }
   .sayhellofooter {
     background-image: url("../../Finalbirdswire_compressed.svg");
     width: 90vw;

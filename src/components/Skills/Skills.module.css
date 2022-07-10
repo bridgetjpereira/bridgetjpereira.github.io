@@ -403,7 +403,7 @@
 @media only screen and (min-width: 319px) and (max-width: 374px) {
   .skillslistbox {
     text-align: center;
-    width: 14em;
+    width: 15em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
     padding: 0.5em;
@@ -650,7 +650,7 @@
   .skillsboxflex {
     width: 80%;
     padding-right: 5em;
-    padding-left: 7em;
+    padding-left: 2em;
     padding-bottom: 1em;
   }
 }
@@ -904,7 +904,7 @@
   .skillsboxflex {
     width: 80%;
     padding-right: 5em;
-    padding-left: 7em;
+    padding-left: 3em;
     padding-bottom: 1em;
   }
 }

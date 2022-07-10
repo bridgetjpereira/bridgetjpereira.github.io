@@ -397,7 +397,7 @@
 @media only screen and (min-width: 319px) and (max-width: 374px) {
   .skillslistbox {
     text-align: center;
-    width: 14em;
+    width: 15em;
     border-radius: 0.5em;
     border: solid 2px #f6d7ba;
     padding: 0.5em;
@@ -411,7 +411,6 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 0em;
-   
   }
 
   .skillstitlenotecardflex {
@@ -640,7 +639,7 @@
     width: 80%;
     // margin-top: 5em;
     padding-right: 5em;
-    padding-left: 7em;
+    padding-left: 2em;
     padding-bottom: 1em;
   }
 }
@@ -656,6 +655,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
+  
   .skillssectionboxflex {
     display: flex;
     flex-direction: row;
@@ -889,7 +889,7 @@
     width: 80%;
     // margin-top: 5em;
     padding-right: 5em;
-    padding-left: 7em;
+    padding-left: 3em;
     padding-bottom: 1em;
   }
 }
